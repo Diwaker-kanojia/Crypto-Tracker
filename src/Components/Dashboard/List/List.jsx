@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import React from "react";
 
 import { Link } from "react-router-dom";
-import { convertNumbers } from "../../../Functions/convertNumber";
+import { convertNumbers } from "../../../Functions/convertNumber.js";
 
 const List = ({ coin, delay }) => {
   return (
