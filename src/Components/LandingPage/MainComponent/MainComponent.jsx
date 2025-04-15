@@ -11,7 +11,7 @@ const MainComponent = () => {
     <div className="pt-24 px-4 sm:px-6 md:px-8 flex flex-col justify-start lg:justify-between lg:flex-row dark:bg-black h-[150vh] sm:h-[200vh] lg:h-[120vh] ">
       <div className="pt-3 md:pt-20 flex flex-col items-center lg:items-start mb-8">
         <motion.h1
-           initial={{ opacity: 0, y: 50 }}
+          initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           className="text-6xl sm:text-7xl md:text-8xl max-w-[200px] sm:max-w-full md:max-w-[300px] lg:max-w-full font-extrabold mb-4 
@@ -50,7 +50,7 @@ const MainComponent = () => {
           <RWebShare
             data={{
               text: "Crypto Dashboard made using React JS.",
-              url: "https://crypto-dashboard-dec.netlify.app/",
+              url: "https://crypto-tracker-ashen-alpha.vercel.app/",
               title: "CryptoDashboard.",
             }}
           >
