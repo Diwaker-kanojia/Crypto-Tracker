@@ -5,7 +5,7 @@ import Search from "../Components/Dashboard/Search/Search";
 import PaginationComponent from "../Components/Dashboard/Pagination/Pagination";
 import Loader from "../Components/Common/Laoder/Loader";
 import BackToTop from "../Components/Common/BackToTop/BackToTop";
-import { get100Coins } from "../Functions/get100Coins";
+import { get100Coins } from "../Functions/get100Coins.js";
 
 const Dashboard = () => {
   const [coins, setCoins] = useState([]);

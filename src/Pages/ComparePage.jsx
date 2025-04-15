@@ -7,7 +7,7 @@ import { getCoinsPrices } from "../Functions/getCoinPrices.js";
 import Loader from "../Components/Common/Laoder/Loader";
 import List from "../Components/Dashboard/List/List";
 import CoinInfo from "../Components/Coin/CoinInfo/CoinInfo";
-import { settingchartData } from "../Functions/settingChartData";
+import { settingchartData } from "../Functions/settingChartData.js";
 import LineChart from "../Components/Coin/LineChart/LineChart";
 import PriceType from "../Components/Coin/TogglePrice/PriceType";
 

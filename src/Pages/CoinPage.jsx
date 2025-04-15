@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Loader from "../Components/Common/Laoder/Loader";
-import { coinObject } from "../Functions/convertObjects";
+import { coinObject } from "../Functions/convertObjects.js";
 import List from "../Components/Dashboard/List/List";
 import CoinInfo from "../Components/Coin/CoinInfo/CoinInfo";
-import { getCoinsData } from "../Functions/getCoinData";
-import { getCoinsPrices } from "../Functions/getCoinPrices";
+import { getCoinsData } from "../Functions/getCoinData.js";
+import { getCoinsPrices } from "../Functions/getCoinPrices.js";
 import LineChart from "../Components/Coin/LineChart/LineChart";
 import { ConvertDate } from "../Functions/convertDate";
 import SelectDays from "../Components/Coin/SelectDays/SelectDays";
-import { settingchartData } from "../Functions/settingChartData";
+import { settingchartData } from "../Functions/settingChartData.js";
 import PriceType from "../Components/Coin/TogglePrice/PriceType";
 import { motion } from "framer-motion";
 

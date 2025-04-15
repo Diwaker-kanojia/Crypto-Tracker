@@ -1,8 +1,9 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
 import { Chart as ChartJS, scales } from "chart.js/auto";
-import { convertNumbers } from "../../../Functions/ConvertNumber";
+
 import { callback } from "chart.js/helpers";
+import { convertNumbers } from "../../../Functions/ConvertNumber";
 const LineChart = ({ chartData, priceType, multiAxis }) => {
   const options = {
     plugins: {
