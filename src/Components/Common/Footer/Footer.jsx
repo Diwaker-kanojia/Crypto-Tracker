@@ -12,7 +12,7 @@ const footerLinks = [
     size: "medium",
   },
   {
-    to: "mailto:diwakerkanojia17@gmail.com",
+    to: "https://www.linkedin.com/in/diwaker-kanojia-490585254",
     Icon: LinkedIn,
     size: "medium",
   },
