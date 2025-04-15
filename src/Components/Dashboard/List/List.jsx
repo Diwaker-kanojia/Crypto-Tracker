@@ -3,7 +3,7 @@ import TrendingDownRoundedIcon from "@mui/icons-material/TrendingDownRounded";
 import { Tooltip } from "@mui/material";
 import { motion } from "framer-motion";
 import React from "react";
-import { convertNumbers } from "../../../Functions/ConvertNumber";
+import { convertNumbers } from "../../../Functions/ConvertNumber.js";
 import { Link } from "react-router-dom";
 const List = ({ coin, delay }) => {
   return (

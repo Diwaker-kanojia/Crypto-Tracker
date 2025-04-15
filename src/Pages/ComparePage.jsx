@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import SelectCoin from "../Components/Compare/SelectCoins/SelectCoin";
 import SelectDays from "../Components/Coin/SelectDays/SelectDays";
-import { getCoinsData } from "../Functions/getCoinData";
-import { coinObject } from "../Functions/convertObjects";
-import { getCoinsPrices } from "../Functions/getCoinPrices";
+import { getCoinsData } from "../Functions/getCoinData.js";
+import { coinObject } from "../Functions/convertObjects.js";
+import { getCoinsPrices } from "../Functions/getCoinPrices.js";
 import Loader from "../Components/Common/Laoder/Loader";
 import List from "../Components/Dashboard/List/List";
 import CoinInfo from "../Components/Coin/CoinInfo/CoinInfo";
