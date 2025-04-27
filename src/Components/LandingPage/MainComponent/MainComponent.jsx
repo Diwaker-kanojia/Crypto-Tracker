@@ -50,7 +50,7 @@ const MainComponent = () => {
           <RWebShare
             data={{
               text: "Crypto Dashboard made using React JS.",
-              url: "https://crypto-tracker-ashen-alpha.vercel.app/",
+              url: "https://crypto-tracker-ruddy-one.vercel.app/",
               title: "CryptoDashboard.",
             }}
           >
