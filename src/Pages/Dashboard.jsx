@@ -35,7 +35,7 @@ const Dashboard = () => {
     const myCoins = await get100Coins();
     if (myCoins) {
       setCoins(myCoins);
-      setPaginatedCoins(myCoins.slice(0, 10));
+      setPaginatedCoins(myCoins.slice(0, 20));
       setIsLoading(false);
     }
   };
